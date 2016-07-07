@@ -14,11 +14,13 @@ export default class Scene extends React.Component{
         console.log(item)
         return (
             <div className="img-sec">
-                 <h1>---------</h1>
+                 <h1>HJLの小画廊</h1>
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-sm-8 img-container">
-                            <div className="figure"></div>
+                            <div className="figure">
+                                <img src={item.imageURL} title={item.title}/>
+                            </div>
                         </div>
                         <div className="col-sm-4 img-description">
                             <p>{item.desc}</p>

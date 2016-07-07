@@ -23,13 +23,7 @@ module.exports = {
     entry: ["webpack-dev-server/client?http://localhost:3000",
         "webpack/hot/only-dev-server",'./src/index.js'],
 
-    stats: {
-        colors: true,
-        reasons: true
-    },
-    cache: true,
-    debug: true,
-    devtool: 'sourcemap',
+
     
     module: {
         loaders: [
@@ -45,7 +39,7 @@ module.exports = {
             },
             { test: /\.json$/, loader: "json-loader" },
             {
-                test: /\.(png|jpg|woff|woff2|eot|ttf|svg)$/,
+                test: /\.(jpe?g|png|gif)$/i,
                 loaders: [
                     'url?limit=10000'
                 ]

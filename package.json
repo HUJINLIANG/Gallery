@@ -29,6 +29,7 @@
     "file-loader": "^0.9.0",
     "jquery": "^3.0.0",
     "json-loader": "^0.5.2",
+    "less": "^2.7.1",
     "less-loader": "^2.2.3",
     "normalize.css": "~3.0.3",
     "react": "^15.0.2",
