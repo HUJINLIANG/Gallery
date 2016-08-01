@@ -2,16 +2,16 @@
 
 ###一个简单的web画廊应用，使用React组件化开发
 
-[Demo](http://115.159.44.40:3000/)
+[Demo](http://115.159.91.108:1337/)
 
 ```
 git clone
 cd
+npm install
 
-
-node server
+node app
 
 
 ```
-###打开localhost:3000运行程序
+###打开localhost:1337运行程序
 
